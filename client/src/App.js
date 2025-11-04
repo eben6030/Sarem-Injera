@@ -10,10 +10,9 @@ const stripePromise = loadStripe("pk_test_51SORnD7HA5wTfVHFOzM8MkIjj1L8YR0BDgQSg
 /* ================================================================= */
 
 const MENU_ITEMS = [
-  { id: 1, name: "Injera Pack (10pcs)", price: 1500, desc: "Soft sourdough injera - best for sharing." },
+  { id: 1, name: "Injera Pack (10pcs)", price: 800, desc: "Soft sourdough injera - best for sharing." },
   { id: 2, name: "Doro Wat (Family)", price: 2200, desc: "Spicy stewed chicken in berbere sauce." },
-  { id: 3, name: "Tibs (Beef)", price: 1800, desc: "Sautéed beef with onions and peppers." },
-  { id: 4, name: "Sambusa (6pcs)", price: 800, desc: "Crispy spiced pastries (vegetarian option)." },
+  { id: 3, name: "Ayib (Homemade cheese)", price: 1800, desc: "a fresh, soft, and mild Cheese." },
 ];
 
 const navStyle = {
