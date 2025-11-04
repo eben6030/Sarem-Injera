@@ -5,9 +5,13 @@ import Stripe from "stripe";
 import nodemailer from "nodemailer";
 
 dotenv.config();
-
 const app = express();
-app.use(cors());
+
+app.use(cors{
+  origin: process.env.CLIENT_URL,https://sarem-injera.vercel.app
+  methods:["GET', "POST"],
+    credentials: true,
+});
 app.use(express.json());
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
